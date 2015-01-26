@@ -11,3 +11,6 @@ RUN apt-get -qq -y update && \
 
 # Define working directory.
 WORKDIR /data
+
+CMD ["-"]
+ENTRYPOINT ["aws"]
